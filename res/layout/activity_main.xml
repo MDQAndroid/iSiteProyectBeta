@@ -9,8 +9,18 @@
     tools:context="com.etb.isiteproyectbeta.MainActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="TTT Servicio Bluetooth" />
+
+    <Button
+        android:id="@+id/btn_ConectarBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"
+        android:text="Conectar Bluetooth" />
 
 </RelativeLayout>
